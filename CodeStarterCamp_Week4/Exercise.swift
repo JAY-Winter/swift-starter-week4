@@ -11,8 +11,8 @@ struct Exercise {
     let name: String
     let action: () -> Void
     
-    func approveStatusRandomlyBetween(_ rangeA: Int, _ rangeB: Int) -> Int {
-        let status: Int = Int.random(in: rangeA...rangeB)
+    func approveStatusRandomlyBetween(_ x: Int, and y: Int) -> Int {
+        let status: Int = Int.random(in: x...y)
         return status
     }
 }
