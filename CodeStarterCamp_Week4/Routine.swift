@@ -11,7 +11,7 @@ struct Routine {
     var name: String
     var exercises: [Exercise] = []
     
-    func startRoutine(_ exercises: [Exercise]) {
+    func startRoutine() {
         print("""
     --------------
     \(self.name)을 시작합니다.
@@ -28,7 +28,7 @@ struct Routine {
         print("""
     --------------
     현재의 컨디션은 다음과 같습니다.
-    상체근력: \(body.upperBodyStrength)
+    상체근력: \(body.upperBodyStrength)ㄹ
     하체근력: \(body.lowerBodyStrength)
     근지구력: \(body.muscularEndurance)
     피로도: \(body.fatigueLevel)

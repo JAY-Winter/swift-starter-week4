@@ -37,4 +37,4 @@ myRoutine.exercises.append(squat)
 myRoutine.exercises.append(running)
 myRoutine.exercises.append(recovery)
 
-myRoutine.startRoutine(myRoutine.exercises)
+myRoutine.startRoutine()
